@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         Toast.makeText(this, "onStart", Toast.LENGTH_LONG).show();
+        Log.v(TAG, "Log onStart" );
     }
     @Override
     protected void onResume() {
